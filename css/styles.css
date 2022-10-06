@@ -11,6 +11,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
 }
+section {
+  padding: 30px 0 30px 0;
+}
 ul {
   padding: 0px;
   margin: 0px;
@@ -45,6 +48,7 @@ h2 {
   border-bottom: #eeeeee 1px solid;
   display: flex;
 }
+
 .logo {
   color: #000;
   font-size: 26px;
@@ -194,9 +198,13 @@ h2 {
 .user {
   background-color: #fff;
   margin: 0 10px 0 10px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .user__img {
+  border-radius: 4px;
 }
 
 .user__title {
@@ -262,6 +270,7 @@ h2 {
 .portf-but__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .portf-but__item {
   padding: 0 25px 0 25px;
@@ -293,6 +302,9 @@ h2 {
   text-align: center;
 }
 .portfolio__item {
+  width: max-content;
+  outline: solid 1px #eeeeee;
+  margin-bottom: 20px;
 }
 .portfolio__img {
 }
